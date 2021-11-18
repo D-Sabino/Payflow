@@ -34,7 +34,28 @@ class _LoginPageState extends State<LoginPage> {
                   AppImages.person,
                   width: 208,
                   height: 273,
-                ))
+                )),
+            Positioned(
+              bottom: size.height * 0.15,
+              left: 0,
+              right: 0,
+              child: Column(
+                mainAxisAlignment: mainAxisAlignment.center,
+                crossAxisAlignment: crossAxisAlignment.center,
+                children: [Image.asset(AppImages.logomini)],
+                Padding(
+                  padding: const EdgeInsets.only(left: 70, right: 70),
+                  child: Text(
+                    "Organize seus boletos em um só lugar",
+                    textAlign: textAlign.center,
+                    style: TextStyles.titleHome,
+                  ),
+                )
+              )
+            ),
+
+
+
           ],
         ),
       ),
