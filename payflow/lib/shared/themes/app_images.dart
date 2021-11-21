@@ -1,4 +1,4 @@
-import 'dart:ffi';
+//import 'dart:ffi';
 
 class AppImages {
   static const logoFull = "assets/images/logofull.png";
