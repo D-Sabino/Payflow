@@ -8,7 +8,8 @@ void main() {
 
 class AppFirebase extends StatefulWidget {
   @override
-  State<AppFirebase> createState() => _AppFirebaseState();
+  //State<AppFirebase> createState() => _AppFirebaseState();
+  _AppFirebaseState createState() => _AppFirebaseState();
 }
 
 class _AppFirebaseState extends State<AppFirebase> {
